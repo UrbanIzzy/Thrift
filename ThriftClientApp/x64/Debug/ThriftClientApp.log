@@ -1,0 +1,21 @@
+﻿Build started 2/10/2020 3:03:53 PM.
+     1>Project "D:\Research\ThriftDemo\ThriftClientApp\ThriftClientApp.vcxproj" on node 2 (Build target(s)).
+     1>InitializeBuildStatus:
+         Touching "x64\Debug\ThriftClientApp.tlog\unsuccessfulbuild".
+       ClCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Research\ThriftDemo\x64\Debug\ThriftClientApp.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\gitclones\vcpkgmaster\installed\x64-windows\debug\lib" "boost_date_time-vc140-mt-gd.lib" thriftmdd.lib thriftnbmdd.lib ssleay32.lib libeay32.lib "boost_thread-vc140-mt-gd.lib" event.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Research\ThriftDemo\x64\Debug\ThriftClientApp.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Research\ThriftDemo\x64\Debug\ThriftClientApp.lib" /MACHINE:X64 x64\Debug\stdafx.obj
+         x64\Debug\ThriftClientApp.obj
+         D:\Research\ThriftDemo\x64\Debug\ThriftDemoGeneratedCode.lib
+     1>ThriftDemoGeneratedCode.lib(CThriftDemoInterface.obj) : warning LNK4049: locally defined symbol ?GlobalOutput@thrift@apache@@3VTOutput@12@A (class apache::thrift::TOutput apache::thrift::GlobalOutput) imported
+         ThriftClientApp.vcxproj -> D:\Research\ThriftDemo\x64\Debug\ThriftClientApp.exe
+         ThriftClientApp.vcxproj -> D:\Research\ThriftDemo\x64\Debug\ThriftClientApp.pdb (Full PDB)
+       FinalizeBuildStatus:
+         Deleting file "x64\Debug\ThriftClientApp.tlog\unsuccessfulbuild".
+         Touching "x64\Debug\ThriftClientApp.tlog\ThriftClientApp.lastbuildstate".
+     1>Done Building Project "D:\Research\ThriftDemo\ThriftClientApp\ThriftClientApp.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.55
